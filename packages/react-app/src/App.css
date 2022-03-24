@@ -1,0 +1,104 @@
+/* .App {
+  text-align: center;
+  padding-left: calc(100vw - 100%);
+  
+} */
+
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.approve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.approve > button {
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+.card-wrapper {
+  margin: 20px 50px;
+  background-color: black;
+  padding: 50px 100px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-wrapper > div {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 10px;
+}
+
+.empty-div {
+  height: 100px;
+}
+
+.buy-wrapper {
+  background-color: black;
+  margin: 20px 50px;
+  padding: 50px 100px;
+  border-radius: 20px;
+}
+
+.flex-wrapper > div {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 10px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-wrapper > input {
+  width: 50%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > h1 {
+  background-color: black;
+  font-weight: 600;
+  padding: 10px 50px;
+  border-radius: 20px;
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}

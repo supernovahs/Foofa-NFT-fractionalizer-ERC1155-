@@ -1,0 +1,60 @@
+.header-wrapper {
+  background-color: black;
+  height: 60px;
+  text-align: start;
+  /* color: white; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  margin: 0;
+  padding: 0px 20px;
+  font-weight: 600;
+}
+
+.account {
+  position: fixed;
+  text-align: right;
+  right: -40px;
+  bottom: -45px;
+  padding: 15px 50px 50px 30px;
+  background: black;
+  border-radius: 100px;
+}
+
+.nav-menu {
+  width: 60%;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.active {
+  /* border-bottom: 2px solid white;
+   */
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.active > a {
+  color: black;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}

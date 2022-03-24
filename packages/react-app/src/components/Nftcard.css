@@ -1,0 +1,33 @@
+.card {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  width: 300px;
+  height: 150px;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.card > img {
+  width: 40%;
+}
+
+.details {
+  width: 60%;
+  padding-left: 20px;
+  border-left: 1px solid white;
+}
+
+.selected {
+  border: 2px solid white;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
