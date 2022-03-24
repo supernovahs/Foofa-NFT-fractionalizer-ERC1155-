@@ -2,6 +2,8 @@
 
 # Author : Supernovahs.eth
 
+# Live link : foofa.surge.sh
+
 # This is my hackathon Project submitted for Ethlglobal hack for Road to Web3 . 
 => User can view all there ERC1155 NFTs using covalent API, List them, Fractionalize them into any no of ERC1155 tokens . Sell the tokens for a discount in our dapp. And when the NFT is bought by someone, anyone can burn the tokens in return of the proceeds of sale.
 
